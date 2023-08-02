@@ -1,0 +1,17 @@
+{
+    "blogs":[
+    {
+    "id":1,   
+    "title": "My first blog",
+    "body" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed tempor nisl a purus venenatis, vel iaculis justo aliquet. Phasellus tristique.",
+    "author": "Mario"
+    },
+    {
+        "id":2,
+        "title": "My second blog",
+        "body" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed tempor nisl a purus venenatis, vel iaculis justo aliquet. Phasellus tristique.",
+        "author": "Mario"
+        }
+
+    ]
+}
