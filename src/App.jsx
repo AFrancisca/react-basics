@@ -1,6 +1,8 @@
+import BlogDetails from "./BlogDetails";
 import Create from "./Create";
 import Home from "./Home";
 import Navbar from "./Navbar";
+import NotFound from "./NotFound";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 
 function App() {
@@ -12,6 +14,8 @@ function App() {
           <Routes>
             <Route exact path="/" element={<Home />} />
             <Route path="/Create" element={<Create />} />
+            <Route path="/blogs/:id" element={<BlogDetails />} />
+            <Route path="*" element={<NotFound />} />
           </Routes>
         </div>
       </div>
